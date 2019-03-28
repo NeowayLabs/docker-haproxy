@@ -25,4 +25,4 @@ ADD ./entrypoint /entrypoint
 ENTRYPOINT [ "./entrypoint" ]
 
 # Make haproxy use the default configuration file
-CMD ["-f", "/etc/haproxy.cfg"]
+CMD ["-db", "-f", "/etc/haproxy.cfg"]
